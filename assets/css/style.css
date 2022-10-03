@@ -1,0 +1,62 @@
+/*** navegacion ***/
+.menu-nav{
+    background: rgba(173, 173, 173, 0.742);
+    height: auto;
+    width: 100%;
+    position:relative;
+    display: flex;
+}
+ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    overflow: hidden; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+ul li a {
+    display: block;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+ul li a:hover {
+    background:rgba(225, 255, 0, 0.82);
+}
+.icons{
+  position: absolute;
+  left: 90%;
+}
+.icons img{
+  height: 30px ;
+  margin: 10px;
+  color: black;
+}
+.icono-2{
+    margin-left: 70px;
+}
+span{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -5px;
+  list-style: none;
+  color: rgb(255, 255, 255);
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: aliceblue;
+}
+#carrito-btn{
+ cursor: pointer;
+}
